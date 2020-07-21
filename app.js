@@ -33,7 +33,7 @@
                    timezone.textContent = data.name ;
                     let far = (temp * (9 / 5) + 32).toFixed(2);
                     //   let celcius = ((temp-32) * (5 / 9)).toFixed(2);
-                   icon1.innerHTML = `<img src="Weather-App/open-weather/${icon}.png">`;
+                   icon1.innerHTML = `<img src="Weather-App/open-weather/01d.png">`;
                    tempsec.addEventListener('click', () => {
                        if(span.textContent === "C"){
                            span.textContent="F";
